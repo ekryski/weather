@@ -1,0 +1,40 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+header h1 {
+	font-size: 3rem;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
+}
+
+.current, .loader {
+	text-align: center;
+}
+
+.current i.wi {
+	font-size: 8rem;
+}
+
+.current .temperature {
+	font-size: 6rem;
+	font-weight: 100;
+	margin: 20px 0;
+}
+
+.loader {
+	font-size: 3rem;
+	font-weight: 100;
+}
